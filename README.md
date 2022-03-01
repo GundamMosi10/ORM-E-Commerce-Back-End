@@ -2,7 +2,7 @@
  
 
   ## Description: 
-   
+  This is the backend for an e-commerce website, utilizing express.js api, sequelize and mySQL to make this a functioning website. 
   ## Table of Contents:
   -- [Usage](#usage)
 
@@ -19,11 +19,11 @@
   -- [Test](#test)
   
   ## Usage:
-  Here is a link to a [demo](https://vimeo.com/681634419/9a6c80209d) 
-  ![Screenshot](./assets/img/CMS-ScreenShot#2.jpeg "screen shot #1 of the CMS-Content-Management-System")
+  Here is a link to a [demo]() 
+  ![Screenshot]( "screen shot #1 of the CMS-Content-Management-System")
   
   ## Installation:
-  
+  Using the command line in VS code you will have to seed the data with the code: npm run seed. Then you can start up the application with node server.js 
   ## License:
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [License: MIT](https://opensource.org/licenses/MIT)
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
