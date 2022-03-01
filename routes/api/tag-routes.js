@@ -24,7 +24,7 @@ router.get('/:id', async (req, res) => {
     const tagData = await Tag.findByPk(req.params.id, {
       include: [{
         model: Product, 
-        attributes: ['product_name']
+        attributes: ['product_name'] //??
       }]
     });
     if(!tagData) {
@@ -60,7 +60,7 @@ router.put('/:id', async (req, res) => {
       where: {
         id: req.params.id
       }
-    }),
+    });
     if (!tagData) {
       res.status(404).json({ message: 'No tag with this id!'});
       return;
