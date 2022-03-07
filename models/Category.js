@@ -12,9 +12,9 @@ Category.init(// define columns
       primaryKey: true, 
       autoIncrement: true
     },
-    catgeory_name: {
+    category_name: {
       type: DataTypes.STRING, 
-      //allowNull: false,
+      allowNull: false,
     }
   },
   {
